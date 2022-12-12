@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Bobble - Sign up</title>
+  </head>
+  <body>
+    <img src="img/loading.gif" class="loader" alt="" />
+
+    <nav class="navbar dark"></nav>
+
+    <section class="form-section">
+      <div class="form-container">
+        <div class="form">
+          <h1 class="form-heading">New Here? Sign Up!</h1>
+          <input
+            type="text"
+            autocomplete="off"
+            id="name"
+            placeholder="Full Name"
+          />
+          <input
+            type="email"
+            autocomplete="off"
+            id="email"
+            placeholder="Email"
+          />
+          <input
+            type="password"
+            autocomplete="off"
+            id="password"
+            placeholder="Password"
+          />
+          <input
+            type="number"
+            autocomplete="off"
+            id="number"
+            placeholder="Contact No."
+          />
+          <span class="error">Error</span>
+
+          <div>
+            <input type="checkbox" id="tc" /><label for="tc" class="tc-text"
+              >You Agree to Our <a href="#"> Terms And Conditions</a></label
+            >
+          </div>
+
+          <button class="submit-btn">Sign Up</button>
+
+          <a href="/login" class="other-form-link"
+            >Already Have an Account? Login Here!</a
+          >
+          <div class="back">
+            <a href="/" class="button">Back</a>
+          </div>
+        </div>
+
+        <img src="img/signup-bg.png" class="form-img" alt="" />
+      </div>
+    </section>
+
+    <script src="js/nav.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
